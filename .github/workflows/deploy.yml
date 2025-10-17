@@ -29,6 +29,6 @@ jobs:
         publish_dir: ./
         publish_branch: gh-pages
         
-    - name: Security notification
+    - name: Deployment notification
       run: |
-        echo "Deployment completed with GitHub Secrets"
+        echo "Deployment completed successfully"
